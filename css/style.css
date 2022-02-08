@@ -1,0 +1,121 @@
+/* Common css start */
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    outline: 0;
+}
+body{
+    font-family: open sans;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+text-center{
+    text-align: center;
+}
+
+
+/* // Common css end// */
+
+
+/* nav css start */
+
+
+#one{
+    background-color: #444;
+    color: #fff;
+}
+
+#one .one0 ul li,
+#one .one00 ul li{
+    display: inline-block;
+    
+}
+#one .one00{
+    text-align: right;
+}
+#one .one0,
+#one .one00{
+    width: 50%;
+    
+}
+#one .one0 ul li a,
+#one .one00 ul li a{
+    display: inline-block;
+    padding: 25px 10px;
+    border: 1px solid #fff;
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff
+    transition: all .3s linear;
+
+}
+#one .one0 ul li:hover a,
+#one .one00 ul li:hover a{
+    color: #e78382;
+}
+
+
+
+
+
+#two{
+    background-color: #fff;
+    
+}
+#two .container .row{
+    align-items: center;
+}
+##wo .nav_img{
+    width: 20%;
+}
+#two .nav_img img{
+    display: inline-block;
+}
+
+#two .nav_menu{
+    width: 80%;
+    text-align: right;
+}
+#two .nav_menu ul li{
+    display: inline-block;
+    margin: 12px 0;
+}
+#two .nav_menu ul li a{
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #222;
+    padding: 40px 18px;
+    transition: all .3s linear;
+
+}
+#two .nav_menu ul li:hover A{
+    color: #e78382;
+}
+
+
+
+/* // nav css end// */
+
+
+/* BAnner css start */
+
+
+
+
+
+/* // Banner css end// */
